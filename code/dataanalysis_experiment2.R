@@ -1,7 +1,7 @@
 '''
 GPT-2 AND IMPLICIT CAUSALITY
 
-Experiment 2: Evaluating the pipeline for text generation of the model.
+Experiment 2: Evaluating the pipeline for text generation of the model
 Data Analysis
 '''
 
