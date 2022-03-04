@@ -1,7 +1,7 @@
 '''
 GPT-2 AND IMPLICIT CAUSALITY
 
-Experiment 1: Evaluating the next-word surprisal computation of the model.
+Experiment 1: Evaluating the next-word surprisal computation of the model
 Data Analysis
 '''
 
