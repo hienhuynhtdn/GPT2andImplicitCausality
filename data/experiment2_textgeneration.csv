@@ -1,4 +1,4 @@
-,verb,item,sent,bias,male_subject,subject_remention,reasonable_continuation,interesting_case,output
+,verb,item,sent,bias,subject_gender,subject_remention,reasonable_continuation,interesting_case,output
 0,abandoned,0,The man abandoned the woman because,33,1,0.0,1.0,0,"The man abandoned the woman because she was too drunk to drive, and he was arrested for driving under the influence."
 1,abandoned,0,The woman abandoned the man because,33,0,0.0,1.0,0,"The woman abandoned the man because he was too drunk to drive, and the man was too drunk to drive."
 2,acclaimed,0,The man acclaimed the woman because,-58,1,0.0,1.0,0,"The man acclaimed the woman because of her ""beautiful face"" and ""beautiful hair."
