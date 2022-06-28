@@ -44,3 +44,5 @@ df['generated_subject'] = df['cleaned_output'].apply(
 # INDICATE WHETHER THE GENERATED SUBJECT REFERS TO THE PREVIOUS SUBJECT OR OBJECT
 df['subject_reference'] = df.apply(
     lambda x: subject_reference(x.generated_subject,x.subject_gender),axis=1)
+
+df.to_csv('./data/experiment2_subject_reference.csv')
