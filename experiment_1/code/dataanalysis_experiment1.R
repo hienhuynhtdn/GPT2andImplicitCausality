@@ -34,6 +34,7 @@ df <- left_join(df,subtlex,by="verb")
 
 
 # VISUALIZATION
+cbPalette <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 # Subject-preference (estimated by the model) vs Human bias scores (Ferstl et al., 2011)
 ggplot(data = df, 
        aes(x   = bias,
@@ -47,11 +48,11 @@ ggplot(data = df,
               size     = 1.5, 
               linetype = 1, 
               alpha    = .7,
-              color = "darkgreen")+
+              color = "#56B4E9")+
   theme_minimal(base_size = 9)+
   scale_color_manual(name   ="Subject gender",
                      labels = c("Female", "Male"),
-                     values = c("#F8766D","#00BFC4")) +
+                     values = cbPalette) +
   scale_x_continuous("Human bias score") +
   scale_y_continuous("Model subject-preference score") +
   theme(aspect.ratio=1,
