@@ -16,7 +16,7 @@ library(gridExtra)
 
 # DATA PROCESSING
 # Load text generation outputs
-df <- read.delim("./data/experiment2_subject_reference.csv", sep = ",",
+df <- read.delim("./data/experiment2_subject_reference.csv", sep = ";",
                  stringsAsFactors = FALSE)
 # Remove first column (indices) from df
 df <- select(df, -c(1))
